@@ -1,0 +1,24 @@
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 10px;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background: #050303;
+}
+
+nav li .drop{
+    display: none;
+    position: absolute;
+    background: #e2d7d7;
+    color: aliceblue;
+}
+
+nav li:hover .drop{
+    display: block;
+}
